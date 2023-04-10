@@ -233,6 +233,16 @@ function ValidaAntesDeEnviarAtividade() {
             NotificaOrcamento();
             return true;
         } else {
+
+            if ($("#solicitante").val() == "assiste") {
+                
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $("#divDecisao").offset().top - (screen.height * 0.1)
+            }, 700);
+
+            return "Solicitações iniciadas pelo SISMA não podem ser retornadas para a atividade de Inicio!";
+            }
+
             var date = calendar.getDate()._d;
             var dia = date.getDate();
             dia = (dia.toString().length == 1 ? "0" + dia : dia);
