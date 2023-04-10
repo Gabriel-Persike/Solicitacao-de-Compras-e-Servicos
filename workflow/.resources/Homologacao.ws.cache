@@ -1,0 +1,2849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_241" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>volume</string>
+   <array class="java.lang.String" length="1">
+    <void index="0">
+     <string>Default</string>
+    </void>
+   </array>
+  </void>
+  <void method="put">
+   <string>camposFormulario, documentoId = 26541</string>
+   <array class="java.lang.String" length="32">
+    <void index="0">
+     <string>formaPgto</string>
+    </void>
+    <void index="1">
+     <string>formMode</string>
+    </void>
+    <void index="2">
+     <string>matrizSuperior</string>
+    </void>
+    <void index="3">
+     <string>hiddenMapaDeCotacao</string>
+    </void>
+    <void index="4">
+     <string>movimentos</string>
+    </void>
+    <void index="5">
+     <string>numProcess</string>
+    </void>
+    <void index="6">
+     <string>coordenadorAprov</string>
+    </void>
+    <void index="7">
+     <string>userCode</string>
+    </void>
+    <void index="8">
+     <string>userComprador</string>
+    </void>
+    <void index="9">
+     <string>codtmv</string>
+    </void>
+    <void index="10">
+     <string>codTransporte</string>
+    </void>
+    <void index="11">
+     <string>dataEntrega</string>
+    </void>
+    <void index="12">
+     <string>locEntrega</string>
+    </void>
+    <void index="13">
+     <string>locEntrega2</string>
+    </void>
+    <void index="14">
+     <string>locEstoque</string>
+    </void>
+    <void index="15">
+     <string>valorTotal</string>
+    </void>
+    <void index="16">
+     <string>coligada</string>
+    </void>
+    <void index="17">
+     <string>MapaCotacaoItens</string>
+    </void>
+    <void index="18">
+     <string>diretorAprov</string>
+    </void>
+    <void index="19">
+     <string>cotacoes</string>
+    </void>
+    <void index="20">
+     <string>JustificativaOrcamento</string>
+    </void>
+    <void index="21">
+     <string>solicitante</string>
+    </void>
+    <void index="22">
+     <string>condicaoPgto</string>
+    </void>
+    <void index="23">
+     <string>isMobile</string>
+    </void>
+    <void index="24">
+     <string>itens</string>
+    </void>
+    <void index="25">
+     <string>chefeEngenheiroAprov</string>
+    </void>
+    <void index="26">
+     <string>decisao</string>
+    </void>
+    <void index="27">
+     <string>comprador</string>
+    </void>
+    <void index="28">
+     <string>filial</string>
+    </void>
+    <void index="29">
+     <string>idmov</string>
+    </void>
+    <void index="30">
+     <string>atividade</string>
+    </void>
+    <void index="31">
+     <string>REIDI</string>
+    </void>
+   </array>
+  </void>
+  <void method="put">
+   <string>mecanismoGrupo</string>
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Moderator group Castilho</string>
+      </void>
+      <void property="groupId">
+       <string>MODERATOR_Castilho</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Member group Castilho</string>
+      </void>
+      <void property="groupId">
+       <string>MEMBER_Castilho</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Moderator group Teste</string>
+      </void>
+      <void property="groupId">
+       <string>MODERATOR_Teste</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Member group Teste</string>
+      </void>
+      <void property="groupId">
+       <string>MEMBER_Teste</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Castilho</string>
+      </void>
+      <void property="groupId">
+       <string>Castilho</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Usuários do grupo Obra I</string>
+      </void>
+      <void property="groupId">
+       <string>Obra I</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Usuários do grupo Obra II</string>
+      </void>
+      <void property="groupId">
+       <string>Obra II</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Grupo dos Engenheiros da Castilho</string>
+      </void>
+      <void property="groupId">
+       <string>Engenheiros</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Grupo dos Chefes de Escritório da Castilho</string>
+      </void>
+      <void property="groupId">
+       <string>Chefes</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Grupo dos Coordenadores de Obras</string>
+      </void>
+      <void property="groupId">
+       <string>Coordenadores</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>RH</string>
+      </void>
+      <void property="groupId">
+       <string>RH</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Chefes de Escritório</string>
+      </void>
+      <void property="groupId">
+       <string>Chefes de Escritório</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Faxinal dos Castilhos</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Faxinal dos Castilhos</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Estrada da Ribeira</string>
+      </void>
+      <void property="groupId">
+       <string>Obra estrada da Ribeira</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Contencao Ribeira II</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Contencao Ribeira II</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Faxinal</string>
+      </void>
+      <void property="groupId">
+       <string>Faxinal</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Emergência Ribeira</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Emergencia Ribeira</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra 4 Barras</string>
+      </void>
+      <void property="groupId">
+       <string>Obra 4 Barras</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Cart. Bauru</string>
+      </void>
+      <void property="groupId">
+       <string>Cart. Bauru</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Conserva Norte Velho</string>
+      </void>
+      <void property="groupId">
+       <string>Conserva Norte Velho</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>GrupoCon</string>
+      </void>
+      <void property="groupId">
+       <string>GrupoCon</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Teste Contratos</string>
+      </void>
+      <void property="groupId">
+       <string>Teste Contratos</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Juridico</string>
+      </void>
+      <void property="groupId">
+       <string>Juridico</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Coordenadores de obras</string>
+      </void>
+      <void property="groupId">
+       <string>Coordenadores de obras</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Central Norte</string>
+      </void>
+      <void property="groupId">
+       <string>Central Norte</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Central Sul</string>
+      </void>
+      <void property="groupId">
+       <string>Central Sul</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Bonfim</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Bonfim</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Rio Joana</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Rio Joana</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Fabio Bruno</string>
+      </void>
+      <void property="groupId">
+       <string>Fabio Bruno</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Candeias</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Candeias</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Cart Bauru</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Cart Bauru</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Cart II</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Cart II</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Confiança</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Confiança</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Cons. Cacoal</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Cons. Cacoal</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Cons. Norte Velho</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Cons. Norte Velho</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Cons. Pres. Figueiredo</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Cons. Pres. Figueiredo</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Crema Bom Jesus</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Crema Bom Jesus</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Crema Marco Rondon</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Crema Marco Rondon</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Humaitá II</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Humaitá II</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Marília</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Marília</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Marília II</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Marília II</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Monte Negro</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Monte Negro</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Seringueiras</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Seringueiras</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Toledo II</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Toledo II</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Grupo teste Central de Equipamentos</string>
+      </void>
+      <void property="groupId">
+       <string>Central de Equipamentos</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Central Norte de Equipamentos - Nível 1</string>
+      </void>
+      <void property="groupId">
+       <string>Central Norte Equip - Nivel 1</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Central Sul de Equipamentos - Nível 1</string>
+      </void>
+      <void property="groupId">
+       <string>Central Sul Equip - Nível 1</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Central Norte de Equipamentos - Nível 2</string>
+      </void>
+      <void property="groupId">
+       <string>Central Norte de Equip - Nível 2</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Central Sul de Equipamentos - Nível 2</string>
+      </void>
+      <void property="groupId">
+       <string>Central Sul de Equip - Nível 2</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Britagem Cacoal</string>
+      </void>
+      <void property="groupId">
+       <string>Britagem Cacoal</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Auxiliar Administrativo</string>
+      </void>
+      <void property="groupId">
+       <string>Auxiliar Administrativo</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Segurança do Trabalho</string>
+      </void>
+      <void property="groupId">
+       <string>Segurança do Trabalho</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Laboratorio</string>
+      </void>
+      <void property="groupId">
+       <string>Laboratorio</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Administradores</string>
+      </void>
+      <void property="groupId">
+       <string>ADMIN</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Gerentes operacionais</string>
+      </void>
+      <void property="groupId">
+       <string>Gerentes operacionais</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Rorainopolis</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Rorainopolis</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Matriz</string>
+      </void>
+      <void property="groupId">
+       <string>Matriz</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Comprador</string>
+      </void>
+      <void property="groupId">
+       <string>Comprador</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Ayrton Senna</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Ayrton Senna</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Administradores do FLUIG</string>
+      </void>
+      <void property="groupId">
+       <string>Administrador TI</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Controladoria</string>
+      </void>
+      <void property="groupId">
+       <string>Controladoria</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Central de Equipamentos - Campo Largo</string>
+      </void>
+      <void property="groupId">
+       <string>Patio Campo Largo</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Central de Equipamentos - Toledo</string>
+      </void>
+      <void property="groupId">
+       <string>Patio Toledo</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Coordenação suprimentos</string>
+      </void>
+      <void property="groupId">
+       <string>Coordenação suprimentos</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>GrupoTeste3</string>
+      </void>
+      <void property="groupId">
+       <string>GrupoTeste3</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Contabilidade</string>
+      </void>
+      <void property="groupId">
+       <string>Contabilidade</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Suporte TI</string>
+      </void>
+      <void property="groupId">
+       <string>Suporte TI</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Financeiro</string>
+      </void>
+      <void property="groupId">
+       <string>Financeiro</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Regional Norte</string>
+      </void>
+      <void property="groupId">
+       <string>Regional Norte</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Regional Sul</string>
+      </void>
+      <void property="groupId">
+       <string>Regional Sul</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Regional Sudeste</string>
+      </void>
+      <void property="groupId">
+       <string>Regional Sudeste</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Regional Nordeste</string>
+      </void>
+      <void property="groupId">
+       <string>Regional Nordeste</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obras Norte</string>
+      </void>
+      <void property="groupId">
+       <string>Obras Norte</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>ObrasNorte</string>
+      </void>
+      <void property="groupId">
+       <string>ObrasNorte</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>ObraTeste1</string>
+      </void>
+      <void property="groupId">
+       <string>ObraTeste1</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Toledo IIII</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Toledo IIII</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Diretoria</string>
+      </void>
+      <void property="groupId">
+       <string>Diretoria</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Licitações</string>
+      </void>
+      <void property="groupId">
+       <string>Licitações</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Qualidade/Segurança/Meio Ambiente/Saúde</string>
+      </void>
+      <void property="groupId">
+       <string>QSMS</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Umuarama </string>
+      </void>
+      <void property="groupId">
+       <string>Obra Umuarama</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Viadutos Linha 9 - Grajau</string>
+      </void>
+      <void property="groupId">
+       <string>Viadutos Linha 9 - Grajau</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Viadutos Linha 9 - CPTM</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Viadutos Linha 9 - CPTM</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra toledo</string>
+      </void>
+      <void property="groupId">
+       <string>Obra toledo</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Parapuã</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Parapuã</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Alguma Coisa</string>
+      </void>
+      <void property="groupId">
+       <string>ObraAlgumaCoisa</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra de teste</string>
+      </void>
+      <void property="groupId">
+       <string>Obradeteste</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra de teste 2</string>
+      </void>
+      <void property="groupId">
+       <string>Obradeteste2</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Estrada da Boiadeira</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Estrada da Boiadeira</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Planejamento</string>
+      </void>
+      <void property="groupId">
+       <string>Planejamento</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Implantação Maceió</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Implantação Maceió</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>Obra Petrolina</string>
+      </void>
+      <void property="groupId">
+       <string>Obra Petrolina</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.tds.ecm.foundation.ws.GroupDto">
+      <void property="groupDescription">
+       <string>SuporteContabilidade</string>
+      </void>
+      <void property="groupId">
+       <string>SuporteContabilidade</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>expediente</string>
+   <array class="java.lang.String" length="4">
+    <void index="0">
+     <string>Carga Completa</string>
+    </void>
+    <void index="1">
+     <string>Continuo</string>
+    </void>
+    <void index="2">
+     <string>Default</string>
+    </void>
+    <void index="3">
+     <string>Horário Comercial</string>
+    </void>
+   </array>
+  </void>
+  <void method="put">
+   <string>mecanismo</string>
+   <array class="[Ljava.lang.Object;" length="34">
+    <void index="0">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>AprovEngProvisao</string>
+      </void>
+      <void index="1">
+       <string>AprovEngProvisao</string>
+      </void>
+     </array>
+    </void>
+    <void index="1">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>aprov-eng-vit</string>
+      </void>
+      <void index="1">
+       <string>aprov-eng-vit</string>
+      </void>
+     </array>
+    </void>
+    <void index="2">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição por Associação</string>
+      </void>
+      <void index="1">
+       <string>Associado</string>
+      </void>
+     </array>
+    </void>
+    <void index="3">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>AtribuicaoObra</string>
+      </void>
+      <void index="1">
+       <string>atribuicaoPorObra</string>
+      </void>
+     </array>
+    </void>
+    <void index="4">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>atribuição engenheiro V</string>
+      </void>
+      <void index="1">
+       <string>atribui-engenheiros-vitor</string>
+      </void>
+     </array>
+    </void>
+    <void index="5">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>atribuir contratações Vitor</string>
+      </void>
+      <void index="1">
+       <string>atribui-engenheiro-vitor</string>
+      </void>
+     </array>
+    </void>
+    <void index="6">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>buscaAprovadorRM</string>
+      </void>
+      <void index="1">
+       <string>buscaAprovadorRM</string>
+      </void>
+     </array>
+    </void>
+    <void index="7">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição por Campo de Formulário</string>
+      </void>
+      <void index="1">
+       <string>Campo Formulário</string>
+      </void>
+     </array>
+    </void>
+    <void index="8">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>ChefeEng</string>
+      </void>
+      <void index="1">
+       <string>ChefeEng</string>
+      </void>
+     </array>
+    </void>
+    <void index="9">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>ChefeObra</string>
+      </void>
+      <void index="1">
+       <string>ChefeObra</string>
+      </void>
+     </array>
+    </void>
+    <void index="10">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>comprasAtribuiEng</string>
+      </void>
+      <void index="1">
+       <string>comprasAtribuiEng</string>
+      </void>
+     </array>
+    </void>
+    <void index="11">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Condicao-aprov-eng</string>
+      </void>
+      <void index="1">
+       <string>Condicao-aprov-eng</string>
+      </void>
+     </array>
+    </void>
+    <void index="12">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>AtribuicaoEngenheiroResponsavel</string>
+      </void>
+      <void index="1">
+       <string>contratacoes_atribuiEng</string>
+      </void>
+     </array>
+    </void>
+    <void index="13">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>contratos_atribuiEng</string>
+      </void>
+      <void index="1">
+       <string>contratos_atribuiEng</string>
+      </void>
+     </array>
+    </void>
+    <void index="14">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Diogo</string>
+      </void>
+      <void index="1">
+       <string>Diogo</string>
+      </void>
+     </array>
+    </void>
+    <void index="15">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>engenheiroObraCompras</string>
+      </void>
+      <void index="1">
+       <string>engenheiroObraCompras</string>
+      </void>
+     </array>
+    </void>
+    <void index="16">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>engenheiro-teste-vitor</string>
+      </void>
+      <void index="1">
+       <string>engenheiro-teste-vitor</string>
+      </void>
+     </array>
+    </void>
+    <void index="17">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição por Executor de Atividade</string>
+      </void>
+      <void index="1">
+       <string>Executor Atividade</string>
+      </void>
+     </array>
+    </void>
+    <void index="18">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição por Grupo</string>
+      </void>
+      <void index="1">
+       <string>Grupo</string>
+      </void>
+     </array>
+    </void>
+    <void index="19">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição por Grupos do Colaborador</string>
+      </void>
+      <void index="1">
+       <string>Grupos Colaborador</string>
+      </void>
+     </array>
+    </void>
+    <void index="20">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>mecanismoAprovador</string>
+      </void>
+      <void index="1">
+       <string>mecanismoAprovador</string>
+      </void>
+     </array>
+    </void>
+    <void index="21">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>mecanismoAprovador1198</string>
+      </void>
+      <void index="1">
+       <string>mecanismoAprovador1198</string>
+      </void>
+     </array>
+    </void>
+    <void index="22">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>mecanismoAprovadorMedicao</string>
+      </void>
+      <void index="1">
+       <string>mecanismoAprovadorMedicao</string>
+      </void>
+     </array>
+    </void>
+    <void index="23">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>mecanismoCompras</string>
+      </void>
+      <void index="1">
+       <string>mecanismoCompras</string>
+      </void>
+     </array>
+    </void>
+    <void index="24">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>mecanismoRecebeMedicoes</string>
+      </void>
+      <void index="1">
+       <string>mecanismoRecebeMedicoes</string>
+      </void>
+     </array>
+    </void>
+    <void index="25">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>ObraTransferencia</string>
+      </void>
+      <void index="1">
+       <string>ObraTransferencia</string>
+      </void>
+     </array>
+    </void>
+    <void index="26">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição por Papel</string>
+      </void>
+      <void index="1">
+       <string>Papel</string>
+      </void>
+     </array>
+    </void>
+    <void index="27">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição para um Grupo</string>
+      </void>
+      <void index="1">
+       <string>Pool Grupo</string>
+      </void>
+     </array>
+    </void>
+    <void index="28">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição para um Papel</string>
+      </void>
+      <void index="1">
+       <string>Pool Papel</string>
+      </void>
+     </array>
+    </void>
+    <void index="29">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>RMaprovaMov_atribuiAprov</string>
+      </void>
+      <void index="1">
+       <string>RMaprovaMov_atribuiAprov</string>
+      </void>
+     </array>
+    </void>
+    <void index="30">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>RMaprovaMov_atribuiUsu</string>
+      </void>
+      <void index="1">
+       <string>RMaprovaMov_atribuiUsu</string>
+      </void>
+     </array>
+    </void>
+    <void index="31">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>SelecCentralRefObra</string>
+      </void>
+      <void index="1">
+       <string>SelecCentralRefObra</string>
+      </void>
+     </array>
+    </void>
+    <void index="32">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>mecanismoAprovador</string>
+      </void>
+      <void index="1">
+       <string>testeDiogo</string>
+      </void>
+     </array>
+    </void>
+    <void index="33">
+     <array class="java.lang.Object" length="2">
+      <void index="0">
+       <string>Atribuição por Usuário</string>
+      </void>
+      <void index="1">
+       <string>Usuário</string>
+      </void>
+     </array>
+    </void>
+   </array>
+  </void>
+  <void method="put">
+   <string>forms</string>
+   <object class="java.util.LinkedList">
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>FLUIGADHOC</string>
+      </void>
+      <void property="documentDescription">
+       <string>FLUIGADHOC</string>
+      </void>
+      <void property="documentId">
+       <int>3</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>FLUIGADHOCPROCESS</string>
+      </void>
+      <void property="documentDescription">
+       <string>FLUIGADHOCPROCESS</string>
+      </void>
+      <void property="documentId">
+       <int>4</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>FLUIGADHOC</string>
+      </void>
+      <void property="documentId">
+       <int>6</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>FLUIGADHOC</string>
+      </void>
+      <void property="documentId">
+       <int>7</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Treinamento</string>
+      </void>
+      <void property="documentId">
+       <int>10</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Não conformidades ISO</string>
+      </void>
+      <void property="documentId">
+       <int>13</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de solicitação de contratos</string>
+      </void>
+      <void property="documentId">
+       <int>14</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>CadastroNC</string>
+      </void>
+      <void property="documentDescription">
+       <string>NC</string>
+      </void>
+      <void property="documentId">
+       <int>30</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Testes</string>
+      </void>
+      <void property="documentId">
+       <int>115</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormulariodeCadastrodefuncionarios_1644856143082</string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Cadastro de funcionários</string>
+      </void>
+      <void property="documentId">
+       <int>144</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>FormularioContratacoes</string>
+      </void>
+      <void property="documentDescription">
+       <string>Contratações - formulario</string>
+      </void>
+      <void property="documentId">
+       <int>332</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Processo de contratação </string>
+      </void>
+      <void property="documentId">
+       <int>333</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Testes Heloisa</string>
+      </void>
+      <void property="documentId">
+       <int>568</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Teste Élida</string>
+      </void>
+      <void property="documentId">
+       <int>569</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormulariodeNotasFiscais</string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Notas Fiscais</string>
+      </void>
+      <void property="documentId">
+       <int>789</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormulariodeAprovacaodeMovimentosdoRM</string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Aprovação de Movimentos do RM</string>
+      </void>
+      <void property="documentId">
+       <int>953</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Cadastro de dados do funcionário para recebimento de beneficio</string>
+      </void>
+      <void property="documentId">
+       <int>1135</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Contratos</string>
+      </void>
+      <void property="documentId">
+       <int>1274</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de TabelaPaiFilho</string>
+      </void>
+      <void property="documentId">
+       <int>1331</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de TreinamentoProcPassagens</string>
+      </void>
+      <void property="documentId">
+       <int>1437</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>testesContratosHeloisa</string>
+      </void>
+      <void property="documentId">
+       <int>1591</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>112 - Formulário de NF de informatica</string>
+      </void>
+      <void property="documentId">
+       <int>2107</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de seleção de contratos</string>
+      </void>
+      <void property="documentId">
+       <int>2211</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Locação de Máquinas</string>
+      </void>
+      <void property="documentId">
+       <int>2537</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Entidades</string>
+      </void>
+      <void property="documentId">
+       <int>2911</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>dsFormEntidades</string>
+      </void>
+      <void property="documentDescription">
+       <string>dsEntidades</string>
+      </void>
+      <void property="documentId">
+       <int>2912</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>kit_aniversariantes</string>
+      </void>
+      <void property="documentDescription">
+       <string>Aniversariantes</string>
+      </void>
+      <void property="documentId">
+       <int>2919</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>kit_cardapio</string>
+      </void>
+      <void property="documentDescription">
+       <string>Cardápio do Dia</string>
+      </void>
+      <void property="documentId">
+       <int>2924</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>kit_convenios</string>
+      </void>
+      <void property="documentDescription">
+       <string>Convênios</string>
+      </void>
+      <void property="documentId">
+       <int>2932</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>kit_news</string>
+      </void>
+      <void property="documentDescription">
+       <string>Notícias</string>
+      </void>
+      <void property="documentId">
+       <int>2938</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de testeEdnerAprovacoes</string>
+      </void>
+      <void property="documentId">
+       <int>3152</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulario Medicoes</string>
+      </void>
+      <void property="documentId">
+       <int>3360</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>DevolucaoMaquinas</string>
+      </void>
+      <void property="documentId">
+       <int>3514</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>TransferenciaMaquinas</string>
+      </void>
+      <void property="documentId">
+       <int>3734</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>ProcessoDeLocacao</string>
+      </void>
+      <void property="documentId">
+       <int>3981</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSProcessoCompras</string>
+      </void>
+      <void property="documentDescription">
+       <string>ProcessoCompras</string>
+      </void>
+      <void property="documentId">
+       <int>3991</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário para a criação de Modelos de Contratos</string>
+      </void>
+      <void property="documentId">
+       <int>5015</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário para a criação de Modelos de Contratos</string>
+      </void>
+      <void property="documentId">
+       <int>5021</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário para a criação de Modelos de Contratos</string>
+      </void>
+      <void property="documentId">
+       <int>5023</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>FormAprovaMov</string>
+      </void>
+      <void property="documentId">
+       <int>5190</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormulariodeSuporteTI</string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário de Suporte TI</string>
+      </void>
+      <void property="documentId">
+       <int>6056</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>ProcessoComprasTeste</string>
+      </void>
+      <void property="documentId">
+       <int>6329</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFaturamento_1620684592738</string>
+      </void>
+      <void property="documentDescription">
+       <string>Faturamento</string>
+      </void>
+      <void property="documentId">
+       <int>6549</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>Beatriz</string>
+      </void>
+      <void property="documentId">
+       <int>6970</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>BeatrizC</string>
+      </void>
+      <void property="documentId">
+       <int>6971</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>gabriel</string>
+      </void>
+      <void property="documentId">
+       <int>6974</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>AtividadeAprovarOrcamento</string>
+      </void>
+      <void property="documentId">
+       <int>6982</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>novoTeste</string>
+      </void>
+      <void property="documentId">
+       <int>6985</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>novoTeste</string>
+      </void>
+      <void property="documentId">
+       <int>6986</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>novoTeste</string>
+      </void>
+      <void property="documentId">
+       <int>6987</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>novoTeste</string>
+      </void>
+      <void property="documentId">
+       <int>6988</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>novoTeste</string>
+      </void>
+      <void property="documentId">
+       <int>6989</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>segundoTeste</string>
+      </void>
+      <void property="documentId">
+       <int>6991</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>biaTeste</string>
+      </void>
+      <void property="documentId">
+       <int>6999</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>biaTeste2</string>
+      </void>
+      <void property="documentId">
+       <int>7001</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>dsLogradouroTesteGabriel</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioLogradouroTeste</string>
+      </void>
+      <void property="documentId">
+       <int>7003</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>formularioTeste</string>
+      </void>
+      <void property="documentId">
+       <int>7007</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>dsLogradouroTesteGabriel2</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioLogradouroTeste2</string>
+      </void>
+      <void property="documentId">
+       <int>7019</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>TesteEventoDeFormulariosGabriel</string>
+      </void>
+      <void property="documentId">
+       <int>7042</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>CompraDePassagensFormulario</string>
+      </void>
+      <void property="documentId">
+       <int>7048</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>passagemAerea</string>
+      </void>
+      <void property="documentId">
+       <int>7131</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>passagemAerea</string>
+      </void>
+      <void property="documentId">
+       <int>7136</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSCompraDePassagensFormularioGabriel</string>
+      </void>
+      <void property="documentDescription">
+       <string>CompraDePassagensFormularioGabriel</string>
+      </void>
+      <void property="documentId">
+       <int>7137</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSModeloDeProcessos</string>
+      </void>
+      <void property="documentDescription">
+       <string>ModeloDeProcessos</string>
+      </void>
+      <void property="documentId">
+       <int>8425</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>smartFilter</string>
+      </void>
+      <void property="documentId">
+       <int>9189</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioComprasServicos</string>
+      </void>
+      <void property="documentId">
+       <int>9206</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string></string>
+      </void>
+      <void property="documentDescription">
+       <string>SelectTeste</string>
+      </void>
+      <void property="documentId">
+       <int>9295</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>ds_vertsign</string>
+      </void>
+      <void property="documentDescription">
+       <string>Vertsign - Integração</string>
+      </void>
+      <void property="documentId">
+       <int>12399</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioquadrodestatus</string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulario quadro de status</string>
+      </void>
+      <void property="documentId">
+       <int>13009</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioAprovacaoMedicoes</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioAprovacaoMedicoes</string>
+      </void>
+      <void property="documentId">
+       <int>13144</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>ds_vertsign_assinantes</string>
+      </void>
+      <void property="documentDescription">
+       <string>Cadastro de Assinantes</string>
+      </void>
+      <void property="documentId">
+       <int>13319</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>ds_vertsign_param_geral</string>
+      </void>
+      <void property="documentDescription">
+       <string>Parâmetros Gerais</string>
+      </void>
+      <void property="documentId">
+       <int>13320</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>ds_form_aux_vertsign</string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulário Auxiliar</string>
+      </void>
+      <void property="documentId">
+       <int>13322</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFomularioReunizaoZero</string>
+      </void>
+      <void property="documentDescription">
+       <string>FomularioReunizaoZero</string>
+      </void>
+      <void property="documentId">
+       <int>13658</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSRMaprovaMovGabriel</string>
+      </void>
+      <void property="documentDescription">
+       <string>RMaprovaMov Gabriel</string>
+      </void>
+      <void property="documentId">
+       <int>16473</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSEntradaNotasFiscais_1632177005851</string>
+      </void>
+      <void property="documentDescription">
+       <string>EntradaNotasFiscais</string>
+      </void>
+      <void property="documentId">
+       <int>17890</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioSolicitacaoDeAssinaturaEletronica</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioSolicitacaoDeAssinaturaEletronica</string>
+      </void>
+      <void property="documentId">
+       <int>17917</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormulariodeCompraseServicos2.0</string>
+      </void>
+      <void property="documentDescription">
+       <string>Formulario de Compras e Serviços 2.0</string>
+      </void>
+      <void property="documentId">
+       <int>18199</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSProcessoCompras1</string>
+      </void>
+      <void property="documentDescription">
+       <string>ProcessoCompras1</string>
+      </void>
+      <void property="documentId">
+       <int>18261</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSProcessoComprasTesteCotacao</string>
+      </void>
+      <void property="documentDescription">
+       <string>ProcessoComprasTesteCotacao</string>
+      </void>
+      <void property="documentId">
+       <int>18284</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioProcessoComprasTesteProd</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioProcessoComprasTesteProd</string>
+      </void>
+      <void property="documentId">
+       <int>18299</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioAprovacaoDeMedicoes</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioAprovacaoDeMedicoes</string>
+      </void>
+      <void property="documentId">
+       <int>18359</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioAprovacaoDeMedicoes_1626975456602</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioAprovacaoDeMedicoes</string>
+      </void>
+      <void property="documentId">
+       <int>18360</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSAtendimentodechamadosTOTVS</string>
+      </void>
+      <void property="documentDescription">
+       <string>Atendimento de chamados TOTVS</string>
+      </void>
+      <void property="documentId">
+       <int>18409</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSuporteJuridico</string>
+      </void>
+      <void property="documentDescription">
+       <string>SuporteJuridico</string>
+      </void>
+      <void property="documentId">
+       <int>18416</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioAprovacaoDeContratos</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioAprovacaoDeContratos</string>
+      </void>
+      <void property="documentId">
+       <int>18529</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSolicitacaoDeContratos</string>
+      </void>
+      <void property="documentDescription">
+       <string>SolicitacaoDeContratos</string>
+      </void>
+      <void property="documentId">
+       <int>19010</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSolicitacaoDeContratos_1632764255032</string>
+      </void>
+      <void property="documentDescription">
+       <string>SolicitacaoDeContratos</string>
+      </void>
+      <void property="documentId">
+       <int>19011</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSolicitacaoDeContratos_1632764361126</string>
+      </void>
+      <void property="documentDescription">
+       <string>SolicitacaoDeContratos</string>
+      </void>
+      <void property="documentId">
+       <int>19012</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSolicitacaoDeContratos_1632764389578</string>
+      </void>
+      <void property="documentDescription">
+       <string>SolicitacaoDeContratos</string>
+      </void>
+      <void property="documentId">
+       <int>19013</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSolicitacaodeContratosV3</string>
+      </void>
+      <void property="documentDescription">
+       <string>Solicitacao de Contratos V3</string>
+      </void>
+      <void property="documentId">
+       <int>19020</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioCadastroDeEquipamentos</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioCadastroDeEquipamentos</string>
+      </void>
+      <void property="documentId">
+       <int>19426</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioCadastroDeEquipamentos_1634564355096</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioCadastroDeEquipamentos</string>
+      </void>
+      <void property="documentId">
+       <int>19523</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioCadastroDeEquipamentos_1634565669080</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioCadastroDeEquipamentos</string>
+      </void>
+      <void property="documentId">
+       <int>19524</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioCadastroDeEquipamentos_1634565824298</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioCadastroDeEquipamentos</string>
+      </void>
+      <void property="documentId">
+       <int>19525</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioSolicitacaoDeContratoDeEquipamentos</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioSolicitacaoDeContratoDeEquipamentos</string>
+      </void>
+      <void property="documentId">
+       <int>19526</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSteste_1</string>
+      </void>
+      <void property="documentDescription">
+       <string>teste_1</string>
+      </void>
+      <void property="documentId">
+       <int>19531</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DScadastro_funcionario</string>
+      </void>
+      <void property="documentDescription">
+       <string>cadastro_funcionário</string>
+      </void>
+      <void property="documentId">
+       <int>19561</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSprocesso_comunicados</string>
+      </void>
+      <void property="documentDescription">
+       <string>processo_comunicados</string>
+      </void>
+      <void property="documentId">
+       <int>21487</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSAuxilioAlimentacao</string>
+      </void>
+      <void property="documentDescription">
+       <string>AuxilioAlimentacao</string>
+      </void>
+      <void property="documentId">
+       <int>22500</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSAprovacaoFundoFixo</string>
+      </void>
+      <void property="documentDescription">
+       <string>Aprovação Fundo Fixo</string>
+      </void>
+      <void property="documentId">
+       <int>24141</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSProvisoesNotasFiscais</string>
+      </void>
+      <void property="documentDescription">
+       <string>Provisões Notas Fiscais</string>
+      </void>
+      <void property="documentId">
+       <int>24213</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSProvisoes-Notas-Fiscais</string>
+      </void>
+      <void property="documentDescription">
+       <string>Provisões-Notas-Fiscais</string>
+      </void>
+      <void property="documentId">
+       <int>24214</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSProvisoes-Notas-Fiscais_1649698463735</string>
+      </void>
+      <void property="documentDescription">
+       <string>Provisões-Notas-Fiscais</string>
+      </void>
+      <void property="documentId">
+       <int>24215</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSFormularioSolicitacaoDeMedicao</string>
+      </void>
+      <void property="documentDescription">
+       <string>FormularioSolicitacaoDeMedicao</string>
+      </void>
+      <void property="documentId">
+       <int>25074</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSuporteContabilidade</string>
+      </void>
+      <void property="documentDescription">
+       <string>SuporteContabilidade</string>
+      </void>
+      <void property="documentId">
+       <int>26526</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSolicitacaodeCompraseServicosV2</string>
+      </void>
+      <void property="documentDescription">
+       <string>Solicitacao de Compras e Servicos V2</string>
+      </void>
+      <void property="documentId">
+       <int>26541</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSTesteVueJS</string>
+      </void>
+      <void property="documentDescription">
+       <string>TesteVueJS</string>
+      </void>
+      <void property="documentId">
+       <int>26542</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSuporteCompras</string>
+      </void>
+      <void property="documentDescription">
+       <string>Suporte Compras</string>
+      </void>
+      <void property="documentId">
+       <int>26571</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSuporteCentraldeEquipamentos</string>
+      </void>
+      <void property="documentDescription">
+       <string>Suporte Central de Equipamentos</string>
+      </void>
+      <void property="documentId">
+       <int>28296</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="com.totvs.technology.ecmrestclient.cardindexpublisher.FormVO">
+      <void property="datasetName">
+       <string>DSSuporteFinanceiro(Homolog)</string>
+      </void>
+      <void property="documentDescription">
+       <string>Suporte Financeiro (Homolog)</string>
+      </void>
+      <void property="documentId">
+       <int>28906</int>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
