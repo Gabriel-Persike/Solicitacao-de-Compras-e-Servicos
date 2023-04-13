@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Fluig-->
         <link type="text/css" rel="stylesheet" href="/portal/resources/style-guide/css/fluig-style-guide.min.css" />
         <script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
         <script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
         <script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
         <script type="text/javascript" src="/portal/resources/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
+        <script src="/webdesk/vcXMLRPC.js"></script>
 
-
+        <!--Funcionalidades-->
         <link rel="stylesheet" href="//cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" />
         <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
-        <script src="/webdesk/vcXMLRPC.js"></script>
         <script src="jquery.maskMoney.js"></script>
         <script src="jquery.mask.js" type="text/javascript"></script>
-        <link rel="stylesheet" href="Style.css" />
         <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
         <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+        <!--React-->
         <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="react.js" crossorigin></script>
+        <script src="react-dom.js" crossorigin></script>
         <script src="antd.min.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://unpkg.com/antd@4.16.13/dist/antd.min.css" />
+        <link rel="stylesheet" href="antd.min.css" />
         <script src="https://unpkg.com/react-input-mask/dist/react-input-mask.min.js"></script>
+        <script src="moment.min.js"></script>
+
+        <!--Processo-->
+        <link rel="stylesheet" href="Style.css" />
         <script src="Script.js"></script>
         <script src="Functions.js"></script>
         <script type="text/babel" src="Item.jsx"></script>
-        <script src="moment.min.js"></script>
+
     </head>
 
     <body>
@@ -111,12 +117,10 @@
                         </div>
                         <div class="tab-pane" id="tabResumo"></div>
                     </div>
+                </div>
+<br>
+                <div id="ResumoOrcamento">
 
-                    <div id="divJustificativa">
-                        <br />
-                        <label for="JustificativaOrcamento">Justificativa:</label>
-                        <textarea name="JustificativaOrcamento" id="JustificativaOrcamento" rows="4" class="form-control"></textarea>
-                    </div>
                 </div>
                 <br />
                 <br />
@@ -132,7 +136,7 @@
                     <input type="hidden" name="locEntrega2" id="locEntrega2">
                     <input type="hidden" name="REIDI" id="REIDI">
                     <input type="hidden" name="natureza" id="natureza">
-
+                    <input type="hidden" name="JustificativaOrcamento" id="JustificativaOrcamento">
                     <input type="hidden" name="formMode" id="formMode" />
                     <input type="hidden" name="atividade" id="atividade" />
                     <input type="hidden" name="userCode" id="userCode" />

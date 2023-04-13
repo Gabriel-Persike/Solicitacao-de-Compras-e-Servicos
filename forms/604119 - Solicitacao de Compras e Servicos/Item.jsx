@@ -69,7 +69,7 @@ class InputPrefix extends React.Component {
 
 class Item extends React.Component {
     //Componente Item usado nas atividade de Inicio e Orcamento
-    //Tambem Inclui dentro dele o Componente RateiosItem 
+    //Tambem Inclui dentro dele o Componente RateiosItem
     constructor(props) {
         super(props);
 
@@ -736,7 +736,7 @@ class AppRoot extends React.Component {
     handleChangeItem(operacao, item, attr, value) {
         if (operacao == "IncluirItem") {
             var itens = this.state.itens.slice();
-            if (intes.length <= 80) {
+            if (itens.length <= 80) {
                 itens.push(item);
 
                 this.setState(
@@ -750,13 +750,12 @@ class AppRoot extends React.Component {
                         });
                     }
                 );
-            }else{
+            } else {
                 FLUIGC.toast({
                     message: "Máximo de 80 Itens!",
                     type: "warning"
                 });
             }
-          
         } else if (operacao == "RemoverItem") {
             if (confirm("Deseja EXCLUIR o Item?")) {
                 var itens = this.state.itens.slice();
@@ -916,6 +915,7 @@ class OrcamentoRoot extends React.Component {
                     },
                     () => {
                         $("#cotacoes").val(JSON.stringify(this.state.orcamentos));
+                        $("#cotacoes").trigger("change");
                         if (this.state.orcamentos.length == 2) {
                             $("#atabMapaCotacao").closest("li").show();
                         }
@@ -936,7 +936,7 @@ class OrcamentoRoot extends React.Component {
                         });
 
                         $("#cotacoes").val(JSON.stringify(this.state.orcamentos));
-
+                        $("#cotacoes").trigger("change");
                         if (this.state.orcamentos.length == 1) {
                             $("#atabMapaCotacao").closest("li").hide();
                         }
@@ -972,6 +972,7 @@ class OrcamentoRoot extends React.Component {
                     type: "success"
                 });
                 $("#cotacoes").val(JSON.stringify(this.state.orcamentos));
+                $("#cotacoes").trigger("change");
             });
         } else if (operacao == "RemoverItem") {
             if (confirm("Deseja EXCLUIR o Item?")) {
@@ -987,6 +988,7 @@ class OrcamentoRoot extends React.Component {
                         type: "success"
                     });
                     $("#cotacoes").val(JSON.stringify(this.state.orcamentos));
+                    $("#cotacoes").trigger("change");
                 });
             }
         } else if (operacao == "ChangeInput") {
@@ -999,6 +1001,7 @@ class OrcamentoRoot extends React.Component {
             orcamentos.splice(orcamentoIndex, 1, orcamento);
             this.setState({ orcamentos }, () => {
                 $("#cotacoes").val(JSON.stringify(this.state.orcamentos));
+                $("#cotacoes").trigger("change");
             });
         }
     }
@@ -1069,10 +1072,9 @@ class OrcamentoRoot extends React.Component {
             itens.splice(itemIndex, 1, item);
             orcamento.itens = itens;
             orcamentos.splice(orcamentoIndex, 1, orcamento);
-            this.setState({ orcamentos },
-                () => {
-                    $("#cotacoes").val(JSON.stringify(this.state.orcamentos));
-                });
+            this.setState({ orcamentos }, () => {
+                $("#cotacoes").val(JSON.stringify(this.state.orcamentos));
+            });
         }
     }
 
@@ -1389,6 +1391,7 @@ class MapaDeCotacao extends React.Component {
                     });
 
                     $("#MapaCotacaoItens").val(JSON.stringify(itensSelected));
+                    $("#cotacoes").trigger("change");
                 }
             );
         }
@@ -2073,6 +2076,97 @@ class InformacoesIniciaisRoot extends React.Component {
                     </div>
                 </div>
             </ErrorBoundary>
+        );
+    }
+}
+
+class ResumoOrcamento extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            Justificativa: $("#JustificativaOrcamento").val()
+        };
+    }
+
+    calculaValorTotal() {
+        var cotacoes = $("#cotacoes").val();
+        var soma = 0;
+
+        if (cotacoes) {
+            cotacoes = JSON.parse(cotacoes);
+            if (cotacoes.length == 1) {
+                for (const Item of cotacoes[0].itens) {
+                    soma += Item.QuantidadeItem * Item.ValorUnitItem;
+                }
+            } else if (cotacoes.length > 1) {
+                var MapaCotacaoItens = $("#MapaCotacaoItens").val();
+                if (MapaCotacaoItens) {
+                    MapaCotacaoItens = JSON.parse(MapaCotacaoItens);
+
+                    var movimentos = cotacoes.map(({ itens, ...rest }) => ({
+                        itens: [],
+                        ...rest
+                    }));
+
+                    MapaCotacaoItens.forEach((item) => {
+                        if (item.orcamento !== "") {
+                            movimentos[item.orcamento].itens.push(cotacoes[item.orcamento].itens.find((obj) => obj.ItemId == item.item));
+                        }
+                    });
+
+                    for (var i = movimentos.length - 1; i >= 0; i--) {
+                        if (movimentos[i].itens.length == 0) {
+                            movimentos.splice(i, 1);
+                        }
+                    }
+
+                    for (const Movimento of movimentos) {
+                        for (const Item of Movimento.itens) {
+                            soma += Item.QuantidadeItem * Item.ValorUnitItem;
+                        }
+                    }
+                }
+            }
+        }
+
+        return (
+            <span>
+                <MoneySpan text={FormataValorParaMoeda(soma.toFixed(2).toString(), 2)} />
+                {" (" + soma.toFixed(2).toString().split(".").join(",").extenso(true) + ")"}
+            </span>
+        );
+    }
+
+    handleInput(e, target) {
+        this.setState({
+            [target]: e.target.value
+        });
+
+        if (target == "Justificativa") {
+            $("#JustificativaOrcamento").val(e.target.value);
+        }
+    }
+
+    render() {
+        return (
+            <div className="panel panel-primary">
+                <div className="panel-heading">
+                    <h3 className="panel-title">Resumo</h3>
+                </div>
+                <div className="panel-body">
+                    <div>
+                        <b>Valor Total: </b>
+                        <span>{this.calculaValorTotal()}</span>
+                    </div>
+                    <br />
+
+                    <div>
+                        <label htmlFor="textAreaJustificativa">Justificativa:</label>
+                        {$("#formMode").val() == "VIEW" || $("#atividade").val() != 5 ? <textarea name="textAreaJustificativa" className="form-control" rows="4" value={this.state.Justificativa} readOnly onChange={(e) => this.handleInput(e, "Justificativa")} /> : <textarea name="textAreaJustificativa" className="form-control" rows="4" value={this.state.Justificativa} onChange={(e) => this.handleInput(e, "Justificativa")} />}
+                    </div>
+                </div>
+            </div>
         );
     }
 }
