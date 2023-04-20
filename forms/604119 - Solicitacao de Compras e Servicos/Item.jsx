@@ -93,6 +93,7 @@ class Item extends React.Component {
     }
 
     render() {
+        console.log(this.props.item.QuantidadeItem);
         var id = makeid(4);
         return (
             <div className="item">
@@ -122,7 +123,15 @@ class Item extends React.Component {
                                             <div className="col-lg-3 col-md-3">
                                                 <div className="details"></div>
                                                 <b>Quant: </b>
-                                                <span>{this.props.item.QuantidadeItem + " " + this.props.item.CodUndItem}</span>
+                                                {this.props.item.QuantidadeItem.includes(".") ? 
+                                                    <> 
+                                                        <span> {this.props.item.QuantidadeItem.split(".")[0]}</span>
+                                                        <span>,</span> 
+                                                        <span style={{ fontSize: "80%" }}>{this.props.item.QuantidadeItem.split(".")[1] != "" ? this.props.item.QuantidadeItem.split(".")[1] : "0"}</span>
+                                                    </>  
+                                                    : <span> {this.props.item.QuantidadeItem}</span>}
+                                                    
+                                                <span>{this.props.item.CodUndItem}</span>
                                             </div>
                                             <div className="col-lg-4 col-md-4">
                                                 <div className="details"></div>
@@ -1747,11 +1756,13 @@ class ItemAprovacao extends React.Component {
                     </thead>
                     <tbody>
                         {this.props.item.RateioDepto.map((rateio, i) => (
+                            
+
                             <tr>
                                 <td>{i + 1}</td>
                                 <td>{rateio.Departamento}</td>
-                                <td>{rateio.Valor}</td>
-                                <td>{rateio.Percentual}</td>
+                                <td><MoneySpan text={FormataValorParaMoeda(this.props.item.QuantidadeItem * this.props.item.ValorUnitItem *  rateio.Percentual / 100, 2)} /></td>
+                                <td>{rateio.Percentual} %</td> 
                             </tr>
                         ))}
                     </tbody>
@@ -1761,6 +1772,7 @@ class ItemAprovacao extends React.Component {
     }
 
     render() {
+        console.log(this.props.item)
         return (
             <div className={"divColumn " + (this.state.detailsIsShown == true ? "col-lg-12" : "col-lg-3 col-md-4 col-sm-4")} style={{ marginBottom: "10px" }}>
                 <div className="card" style={{ height: "100%" }}>
@@ -2099,16 +2111,18 @@ class ResumoOrcamento extends React.Component {
                 for (const Item of cotacoes[0].itens) {
                     soma += Item.QuantidadeItem * Item.ValorUnitItem;
                 }
-            } else if (cotacoes.length > 1) {
+            } else if (cotacoes.length > 1) {//Caso tenha mais de um orçamento verifica o Mapa de Cotacao para calcular o valor total
                 var MapaCotacaoItens = $("#MapaCotacaoItens").val();
                 if (MapaCotacaoItens) {
                     MapaCotacaoItens = JSON.parse(MapaCotacaoItens);
 
+                    //Cria uma lista com todos os Itens das Cotacoes
                     var movimentos = cotacoes.map(({ itens, ...rest }) => ({
                         itens: [],
                         ...rest
                     }));
 
+                    //Verifica qual Orcamento selecionada para cada Item, e então busca na lista dos Itens o Item correspondente ao orcamento selecionado
                     MapaCotacaoItens.forEach((item) => {
                         if (item.orcamento !== "") {
                             movimentos[item.orcamento].itens.push(cotacoes[item.orcamento].itens.find((obj) => obj.ItemId == item.item));
